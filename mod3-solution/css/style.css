@@ -1,0 +1,169 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#main {
+    background-image: url('https://www.bing.com/ck/a?!&&p=94f4fa0c3d18ba89e8fb20b6a4ec754c17c8dd5c87633d23f7e178dd555d2b5fJmltdHM9MTczMjE0NzIwMA&ptn=3&ver=2&hsh=4&fclid=2e8210f3-b0c6-6a74-07b6-0392b1496b1d&u=a1L2ltYWdlcy9zZWFyY2g_cT10aGUlMjBwaWN0dXJlJTIwZm9yJTIwbWF ```css
+pbiJmY2F0Z3JvdW5kJTIwaW1hZ2UlMjBmb3IlMjByZXN0YXR1cmFuZCZGT1JNTz1JUUZSQkEmaWQ9NkExRkI3QjFFRDA3RDQzOTY0NTZCNjY0RTVERTU1RjM1N0E5MTYzMQ&ntb=1');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+#menu {
+    padding: 20px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+#reviews {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.review-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review p {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.review strong {
+    font-weight: bold;
+}
+
+#contacts {
+    background-image: url('https://www.bing.com/ck/a?!&&p=94f4fa0c3d18ba89e8fb20b6a4ec754c17c8dd5c87633d23f7e178dd555d2b5fJmltdHM9MTczMjE0NzIwMA&ptn=3&ver=2&hsh=4&fclid=2e8210f3-b0c6-6a74-07b6-0392b1496b1d&u=a1L2ltYWdlcy9zZWFyY2g_cT10aGUlMjBwaWN0dXJlJTIwZm9yJTIwbWFpbiUyMGJhY2tncm91bmQlMjBpbWFnZSUyMGZvciUyMHJlc3RhdXJhbmQmRk9STT1JUUZSQkEmaWQ9NkExRkI3QjFFRDA3RDQzOTY0NTZCNjY0RTVERTU1RjM1N0E5MTYzMQ&ntb=1');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.contact-item {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.contact-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #333;
